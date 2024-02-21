@@ -54,8 +54,8 @@ class TheDollMaster98 {
  coding: Coding = {
   Langs: {
       Expert: ['JavaScript', 'TypeScript'],
-      Intermediate: ['Dart', 'GoLang'],
-      Learning: []
+      Intermediate: ['GoLang'],
+      Learning: ['Dart']
     },
     FrontEnd: {
       Expert: ['Angular', 'Bootstrap 5', 'Material Design'],
