@@ -7,11 +7,8 @@
 <h2 align="center">About Me </h2>
 
 ```typescript
-interface Contact {
-  email: string;
-}
-
-interface Life {
+interface AboutMe {
+email: string;
   langs: string[];
   birthday: Date;
 }
@@ -52,11 +49,8 @@ interface Coding {
 }
 
 class TheDollMaster98 {
-  contact: Contact = {
-    email: "lorisdalsanto@hotmail.it"
-  };
-
-  life: Life = {
+  aboutMe: AboutMe = {
+    email: "lorisdalsanto@hotmail.it",
     langs: ['Italian', 'English'],
     birthday: new Date(1998, 3, 27)
   };
