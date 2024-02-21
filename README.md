@@ -50,7 +50,6 @@ class Attributes(Tekky):
 	    <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,heroku" />
 		  <br/>
 	    <img src="https://skillicons.dev/icons?i=dart,flutter" />
-		
 		<br/>
 	    <img src="https://skillicons.dev/icons?i=vscode,androidstudio" />
 	  </a>
