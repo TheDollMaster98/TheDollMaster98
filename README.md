@@ -74,7 +74,7 @@ class TheDollMaster98 {
     },
     BackEnd: {
       Expert: ['Firebase'],
-      Intermediate: ['Nodejs', 'Express', 'Heroku'],
+      Intermediate: ['Nodejs', 'Express'],
       Learning: []
     },
    Database: {
