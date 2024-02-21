@@ -82,7 +82,7 @@ class TheDollMaster98 {
 
 <p align="center">
 	<a href="https://skillicons.dev">
-	    <img src="https://skillicons.dev/icons?i=angular,ts,html,css,js,react,bootstrap,nodejs,express" />
+	    <img src="https://skillicons.dev/icons?i=angular,react,js,ts,html,css,bootstrap,nodejs,express" />
 		<br/>
 	    <img src="https://skillicons.dev/icons?i=mongodb,firebase,heroku,dart,flutter,vscode,androidstudio" />
 	  </a>
