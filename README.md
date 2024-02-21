@@ -8,7 +8,7 @@
 
 ```typescript
 interface AboutMe {
-email: string;
+  email: string;
   langs: string[];
   birthday: Date;
 }
