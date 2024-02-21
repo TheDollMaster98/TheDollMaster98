@@ -8,15 +8,12 @@
 
 ```typescript
 interface Contact {
-  discord: string;
-  telegram: string;
-  channel: string;
   email: string;
 }
 
 interface Life {
   langs: string[];
-  age: number;
+  birthday: Date;
 }
 
 interface Coding {
@@ -31,22 +28,19 @@ interface Coding {
 
 class TheDollMaster98 {
   contact: Contact = {
-    discord: "tekkyuwu",
-    telegram: "t.me/xtekky",
-    channel: "t.me/onlpx",
-    email: "github@g4f.ai"
+    email: "lorisdalsanto@hotmail.it"
   };
 
   life: Life = {
     langs: ['Italian', 'English'],
-    age: 25
+    birthday: new Date(1999, 1, 1)
   };
 
   coding: Coding = {
     langs: {
-      expert: ['angular', 'typescript', 'html', 'css', 'javascript'],
-      intermediate: ['nodejs', 'express'],
-      learning: ['react', 'vue']
+      expert: ['angular', 'typescript', 'html', 'css', 'javascript', 'firebase'],
+      intermediate: ['react', nodejs', 'express', 'dart'],
+      learning: ['mongoDB', 'flutter']
     },
     specialities: ['frontend development', 'web design'],
     environment: ['vscode']
