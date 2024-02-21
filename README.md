@@ -63,7 +63,7 @@ class TheDollMaster98 {
       Learning: []
     },
     BackEnd: {
-      Expert: ['Firebase',],
+      Expert: ['Firebase'],
       Intermediate: ['Heroku', 'MongoDB'],
       Learning: []
     },
