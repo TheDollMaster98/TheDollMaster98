@@ -45,7 +45,9 @@ class Attributes(Tekky):
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,react,flutter" />
+    <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,react" />
+    <img src="https://skillicons.dev/icons?i=dart, flutter" />
+	  <img src="https://skillicons.dev/icons?i=nodejs,express,firebase,heroku" />
   </a>
 </p>
 
