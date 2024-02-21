@@ -37,6 +37,16 @@ interface Coding {
     Intermediate: string[];
     Learning: string[];
   };
+  Database: {
+    Expert: string[];
+    Intermediate: string[];
+    Learning: string[];
+  };
+  Hosting: {
+    Expert: string[];
+    Intermediate: string[];
+    Learning: string[];
+  };
   Specialities: string[];
   Environment: string[];
 }
@@ -64,11 +74,21 @@ class TheDollMaster98 {
     },
     BackEnd: {
       Expert: ['Firebase'],
-      Intermediate: ['Heroku', 'MongoDB'],
+      Intermediate: ['Nodejs', 'Express', 'Heroku'],
+      Learning: []
+    },
+   Database: {
+      Expert: ['Firebase'],
+      Intermediate: ['MongoDB'],
+      Learning: []
+    },
+    Hosting: {
+      Expert: ['Firebase'],
+      Intermediate: ['Nodejs', 'Express', 'Heroku'],
       Learning: []
     },
     MobileDev: {
-      Expert: [],
+      Expert: ['Firebase'],
       Intermediate: [],
       Learning: ['Flutter']
     },
