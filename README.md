@@ -17,13 +17,28 @@ interface Life {
 }
 
 interface Coding {
-  langs: {
-    expert: string[];
-    intermediate: string[];
-    learning: string[];
+ Langs: {
+    Expert: string[];
+    Intermediate: string[];
+    Learning: string[];
   };
-  specialities: string[];
-  environment: string[];
+  FrontEnd: {
+    Expert: string[];
+    Intermediate: string[];
+    Learning: string[];
+  };
+  BackEnd: {
+    Expert: string[];
+    Intermediate: string[];
+    Learning: string[];
+  };
+  MobileDev: {
+    Expert: string[];
+    Intermediate: string[];
+    Learning: string[];
+  };
+  Specialities: string[];
+  Environment: string[];
 }
 
 class TheDollMaster98 {
@@ -36,14 +51,29 @@ class TheDollMaster98 {
     birthday: new Date(1999, 1, 1)
   };
 
-  coding: Coding = {
-    langs: {
-      expert: ['angular', 'typescript', 'html', 'css', 'javascript', 'firebase'],
-      intermediate: ['react', nodejs', 'express', 'dart'],
-      learning: ['mongoDB', 'flutter']
+ coding: Coding = {
+  Langs: {
+      Expert: ['JavaScript', 'TypeScript'],
+      Intermediate: ['Dart', 'GoLang'],
+      Learning: []
     },
-    specialities: ['frontend development', 'web design'],
-    environment: ['vscode']
+    FrontEnd: {
+      Expert: ['Angular', 'Bootstrap 5', 'Material Design'],
+      Intermediate: ['React', 'Tailwind'],
+      Learning: []
+    },
+    BackEnd: {
+      Expert: [],
+      Intermediate: ['Firebase', 'Heroku', 'MongoDB'],
+      Learning: []
+    },
+    MobileDev: {
+      Expert: [],
+      Intermediate: [],
+      Learning: ['Flutter']
+    },
+    Specialities: ['Frontend Development', 'Web Design'],
+    Environment: ['VSCode', 'Android Studio']
   };
 }
 
