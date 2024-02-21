@@ -9,7 +9,7 @@
 ```python
 from typing import Tuple, List, Dict
 
-class Tekky:
+class TheDollMaster98:
     pass
 
 class Attributes(Tekky):
@@ -45,11 +45,13 @@ class Attributes(Tekky):
 
 <p align="center">
 	<a href="https://skillicons.dev">
-	    <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,react" />
+	    <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,react,bootstrap" />
 		  <br/>
 	    <img src="https://skillicons.dev/icons?i=dart,flutter" />
 		<br/>
-	    <img src="https://skillicons.dev/icons?i=nodejs,express,firebase,heroku" />
+	    <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb, firebase,heroku" />
+		<br/>
+	    <img src="https://skillicons.dev/icons?i=vscode,androidstudio" />
 	  </a>
 </p>
 
