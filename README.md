@@ -46,10 +46,11 @@ class Attributes(Tekky):
 <p align="center">
 	<a href="https://skillicons.dev">
 	    <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,react,bootstrap" />
+		<br/>
+	    <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,heroku" />
 		  <br/>
 	    <img src="https://skillicons.dev/icons?i=dart,flutter" />
-		<br/>
-	    <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb, firebase,heroku" />
+		
 		<br/>
 	    <img src="https://skillicons.dev/icons?i=vscode,androidstudio" />
 	  </a>
