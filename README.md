@@ -48,7 +48,7 @@ class TheDollMaster98 {
 
   life: Life = {
     langs: ['Italian', 'English'],
-    birthday: new Date(1999, 1, 1)
+    birthday: new Date(1998, 3, 27)
   };
 
  coding: Coding = {
@@ -82,14 +82,11 @@ class TheDollMaster98 {
 
 <p align="center">
 	<a href="https://skillicons.dev">
-	    <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,react,bootstrap" />
+	    <img src="https://skillicons.dev/icons?i=angular,ts,html,css,js,react,bootstrap,nodejs,express" />
 		<br/>
-	    <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,heroku" />
-		  <br/>
-	    <img src="https://skillicons.dev/icons?i=dart,flutter" />
-		<br/>
-	    <img src="https://skillicons.dev/icons?i=vscode,androidstudio" />
+	    <img src="https://skillicons.dev/icons?i=mongodb,firebase,heroku,dart,flutter,vscode,androidstudio" />
 	  </a>
 </p>
+
 
 
