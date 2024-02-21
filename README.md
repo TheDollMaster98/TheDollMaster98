@@ -6,40 +6,53 @@
 
 <h2 align="center">About Me </h2>
 
-```python
-from typing import Tuple, List, Dict
+```typescript
+interface Contact {
+  discord: string;
+  telegram: string;
+  channel: string;
+  email: string;
+}
 
-class TheDollMaster98:
-    pass
+interface Life {
+  langs: string[];
+  age: number;
+}
 
-class Attributes(Tekky):
-    @property
-    def contact(self) -> Tuple[str, str, str]:
-        discord  = "tekkyuwu"
-        telegram = "t.me/xtekky"
-        channel  = "t.me/onlpx"
-        email    = "github@g4f.ai"
-	    
-	    return discord, telegram, proton
+interface Coding {
+  langs: {
+    expert: string[];
+    intermediate: string[];
+    learning: string[];
+  };
+  specialities: string[];
+  environment: string[];
+}
 
-    @property
-    def life(self) -> Tuple[List[str], int]:
-        langs = ['Italian',  'English']
-        age   = 25
-		
-        return langs, age
-	
-    @property
-    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str]]:
-        langs = {
-            'expert'      : ['python'],
-            'intermediate': ['go', 'js'],
-            'learning'    : ['c', 'c++', 'c#', 'asm', 'java']
-        }
-        specialities  = ['web/app reverse engineering', 'fullstack']
-	environnement = ['vscode']
+class TheDollMaster98 {
+  contact: Contact = {
+    discord: "tekkyuwu",
+    telegram: "t.me/xtekky",
+    channel: "t.me/onlpx",
+    email: "github@g4f.ai"
+  };
 
-	return langs, specialities, environnement
+  life: Life = {
+    langs: ['Italian', 'English'],
+    age: 25
+  };
+
+  coding: Coding = {
+    langs: {
+      expert: ['angular', 'typescript', 'html', 'css', 'javascript'],
+      intermediate: ['nodejs', 'express'],
+      learning: ['react', 'vue']
+    },
+    specialities: ['frontend development', 'web design'],
+    environment: ['vscode']
+  };
+}
+
 ```
 <h2 align="center">Skills </h2>
 
