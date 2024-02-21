@@ -24,8 +24,8 @@ class Attributes(Tekky):
 
     @property
     def life(self) -> Tuple[List[str], int]:
-        langs = ['French', 'German', 'Spanish', 'English']
-        age   = 17
+        langs = ['Italian',  'English']
+        age   = 25
 		
         return langs, age
 	
@@ -45,7 +45,7 @@ class Attributes(Tekky):
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,golang,vscode,androidstudio,c,cs,cpp,js,css,html" />
+    <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,react,flutter" />
   </a>
 </p>
 
