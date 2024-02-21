@@ -44,11 +44,13 @@ class Attributes(Tekky):
 <h2 align="center">Skills </h2>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,react" />
-    <img src="https://skillicons.dev/icons?i=dart, flutter" />
-	  <img src="https://skillicons.dev/icons?i=nodejs,express,firebase,heroku" />
-  </a>
+	<a href="https://skillicons.dev">
+	    <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,react" />
+		  <br/>
+	    <img src="https://skillicons.dev/icons?i=dart,flutter" />
+		<br/>
+	    <img src="https://skillicons.dev/icons?i=nodejs,express,firebase,heroku" />
+	  </a>
 </p>
 
 <p href="https://discord.gg/onlp" align="center">
