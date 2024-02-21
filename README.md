@@ -63,8 +63,8 @@ class TheDollMaster98 {
       Learning: []
     },
     BackEnd: {
-      Expert: [],
-      Intermediate: ['Firebase', 'Heroku', 'MongoDB'],
+      Expert: ['Firebase',],
+      Intermediate: ['Heroku', 'MongoDB'],
       Learning: []
     },
     MobileDev: {
