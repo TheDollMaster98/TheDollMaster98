@@ -83,10 +83,10 @@ class TheDollMaster98 {
     },
     MobileDev: {
       Expert: ['Firebase'],
-      Intermediate: ['Flutter],
+      Intermediate: ['Flutter'],
       Learning: ['Riverpod', 'Bloc', 'React Native']
     },
-    Specialities: ['Frontend Development', 'Flutter Mobile Dev0'Web Design'],
+    Specialities: ['Front-End Dev', 'Flutter Mobile Dev', 'Web Design'],
     Environment: ['VSCode', 'Android Studio']
   };
 }
