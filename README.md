@@ -3,7 +3,6 @@
     <img alt="" src=https://komarev.com/ghpvc/?username=xtekky&style=for-the-badge />
 </p> -->
 
-
 <h2 align="center">About Me </h2>
 
 ```typescript
@@ -14,7 +13,7 @@ interface AboutMe {
 }
 
 interface Coding {
- Langs: {
+  Langs: {
     Expert: string[];
     Intermediate: string[];
     Learning: string[];
@@ -51,47 +50,47 @@ interface Coding {
 class TheDollMaster98 {
   aboutMe: AboutMe = {
     email: "lorisdalsanto@hotmail.it",
-    langs: ['Italian', 'English'],
-    birthday: new Date(1998, 3, 27)
+    langs: ["Italian", "English"],
+    birthday: new Date(1998, 3, 27),
   };
 
- coding: Coding = {
-  Langs: {
-      Expert: ['JavaScript', 'TypeScript'],
-      Intermediate: ['GoLang'],
-      Learning: ['Dart']
+  coding: Coding = {
+    Langs: {
+      Expert: ["JavaScript", "TypeScript"],
+      Intermediate: ["GoLang"],
+      Learning: ["Dart"],
     },
     FrontEnd: {
-      Expert: ['Angular', 'Bootstrap 5', 'Material Design'],
-      Intermediate: ['React', 'Tailwind'],
-      Learning: []
+      Expert: ["Angular", "Bootstrap 5", "Material Design"],
+      Intermediate: ["React", "Tailwind"],
+      Learning: [],
     },
     BackEnd: {
-      Expert: ['Firebase'],
-      Intermediate: ['Nodejs', 'Express'],
-      Learning: []
+      Expert: ["Firebase"],
+      Intermediate: ["Nodejs", "Express"],
+      Learning: [],
     },
-   Database: {
-      Expert: ['Firebase'],
-      Intermediate: ['MongoDB'],
-      Learning: []
+    Database: {
+      Expert: ["Firebase"],
+      Intermediate: ["MongoDB"],
+      Learning: [],
     },
     Hosting: {
-      Expert: ['Firebase'],
-      Intermediate: ['Nodejs', 'Express', 'Heroku'],
-      Learning: []
+      Expert: ["Firebase"],
+      Intermediate: ["Nodejs", "Express", "Heroku"],
+      Learning: [],
     },
     MobileDev: {
-      Expert: ['Firebase'],
-      Intermediate: ['Flutter'],
-      Learning: ['Riverpod', 'Bloc', 'React Native']
+      Expert: ["Firebase"],
+      Intermediate: ["Flutter"],
+      Learning: ["Riverpod", "Bloc", "React Native"],
     },
-    Specialities: ['Front-End Dev', 'Flutter Mobile Dev', 'Web Design'],
-    Environment: ['VSCode', 'Android Studio']
+    Specialities: ["Front-End Dev", "Flutter Mobile Dev", "Web Design"],
+    Environment: ["VSCode", "Android Studio"],
   };
 }
-
 ```
+
 <h2 align="center">Skills </h2>
 
 <p align="center">
@@ -102,5 +101,4 @@ class TheDollMaster98 {
 	  </a>
 </p>
 
-
-
+<img src="https://github.com/fede-da/fede-da/blob/main/assets/genjutsu.gif" style="width: 80vw; height: auto;">
