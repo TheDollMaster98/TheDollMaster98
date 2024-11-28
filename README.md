@@ -101,4 +101,6 @@ class TheDollMaster98 {
 	  </a>
 </p>
 
-<img src="https://github.com/TheDollMaster98/TheDollMaster98/blob/main/assets/tate-no-yusha.gif" style="width: 40vw; height: auto;">
+<p align="center">
+  <img src="https://github.com/TheDollMaster98/TheDollMaster98/blob/main/assets/tate-no-yusha.gif" style="width: 20vw; height: auto;">
+<p>
