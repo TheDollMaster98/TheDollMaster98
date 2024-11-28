@@ -101,4 +101,4 @@ class TheDollMaster98 {
 	  </a>
 </p>
 
-<img src="https://github.com/fede-da/fede-da/blob/main/assets/genjutsu.gif" style="width: 80vw; height: auto;">
+<img src="https://github.com/TheDollMaster98/TheDollMaster98/blob/main/assets/tate-no-yusha.gif" style="width: 80vw; height: auto;">
