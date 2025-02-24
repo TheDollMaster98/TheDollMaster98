@@ -61,8 +61,8 @@ class TheDollMaster98 {
       Learning: ["Dart"],
     },
     FrontEnd: {
-      Expert: ["Angular", "Bootstrap 5", "Material Design"],
-      Intermediate: ["React", "Tailwind"],
+      Expert: ["AngularTS", "Bootstrap 5", "Material Design", "Tailwindcss 3/4"],
+      Intermediate: ["ReactTSX"],
       Learning: [],
     },
     BackEnd: {
