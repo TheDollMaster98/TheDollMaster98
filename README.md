@@ -81,8 +81,8 @@ class TheDollMaster98 {
       Learning: [],
     },
     MobileDev: {
-      Expert: ["Flutter 3", "Firebase"],
-      Intermediate: [],
+      Expert: [Firebase"],
+      Intermediate: ["Flutter"],
       Learning: ["Riverpod", "Bloc", "React Native"],
     },
     Specialities: ["Front-End Dev", "Flutter Mobile Dev", "Web Design"],
