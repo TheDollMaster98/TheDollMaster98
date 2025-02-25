@@ -67,7 +67,7 @@ class TheDollMaster98 {
     },
     BackEnd: {
       Expert: ["Firebase"],
-      Intermediate: ["Nodejs", "Express"],
+      Intermediate: ["NodeJS", "ExpressJS"],
       Learning: [],
     },
     Database: {
@@ -77,12 +77,12 @@ class TheDollMaster98 {
     },
     Hosting: {
       Expert: ["Firebase"],
-      Intermediate: ["Nodejs", "Express", "Heroku"],
+      Intermediate: ["NodeJS", "ExpressJS", "Heroku"],
       Learning: [],
     },
     MobileDev: {
-      Expert: ["Firebase"],
-      Intermediate: ["Flutter"],
+      Expert: ["Flutter 3", "Firebase"],
+      Intermediate: [],
       Learning: ["Riverpod", "Bloc", "React Native"],
     },
     Specialities: ["Front-End Dev", "Flutter Mobile Dev", "Web Design"],
