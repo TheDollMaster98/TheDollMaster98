@@ -7,88 +7,51 @@
 
 ```typescript
 interface AboutMe {
-  email: string;
+  email?: string;
   langs: string[];
   birthday: Date;
 }
 
-interface Coding {
-  Langs: {
-    Expert: string[];
-    Intermediate: string[];
-    Learning: string[];
-  };
-  FrontEnd: {
-    Expert: string[];
-    Intermediate: string[];
-    Learning: string[];
-  };
-  BackEnd: {
-    Expert: string[];
-    Intermediate: string[];
-    Learning: string[];
-  };
-  MobileDev: {
-    Expert: string[];
-    Intermediate: string[];
-    Learning: string[];
-  };
-  Database: {
-    Expert: string[];
-    Intermediate: string[];
-    Learning: string[];
-  };
-  Hosting: {
-    Expert: string[];
-    Intermediate: string[];
-    Learning: string[];
-  };
-  Specialities: string[];
-  Environment: string[];
+interface SkillCategory {
+  Expert: string[];
+  Intermediate?: string[];
+  Learning?: string[];
 }
 
 class TheDollMaster98 {
   aboutMe: AboutMe = {
-    email: "lorisdalsanto@hotmail.it",
     langs: ["Italian", "English"],
     birthday: new Date(1998, 3, 27),
   };
 
-  coding: Coding = {
-    Langs: {
+  skills: Record<string, SkillCategory> = {
+    Programming: {
       Expert: ["JavaScript", "TypeScript"],
       Intermediate: ["Dart", "GoLang"],
-      Learning: [],
     },
     FrontEnd: {
-      Expert: ["AngularTS", "Bootstrap 5", "Material Design", "Tailwindcss 3/4"],
+      Expert: ["AngularTS", "Bootstrap 5", "Material Design", "TailwindCSS 3/4"],
       Intermediate: ["ReactTSX"],
-      Learning: [],
     },
     BackEnd: {
       Expert: ["Firebase"],
-      Intermediate: ["NodeJS", "ExpressJS"],
-      Learning: [],
+      Intermediate: ["NodeJS", "ExpressJS", "MongoDB"],
     },
-    Database: {
+    Mobile: {
       Expert: ["Firebase"],
-      Intermediate: ["MongoDB"],
-      Learning: [],
-    },
-    Hosting: {
-      Expert: ["Firebase"],
-      Intermediate: ["NodeJS", "ExpressJS", "Heroku"],
-      Learning: [],
-    },
-    MobileDev: {
-      Expert: [Firebase"],
       Intermediate: ["Flutter"],
       Learning: ["Riverpod", "Bloc", "React Native"],
     },
-    Specialities: ["Front-End Dev", "Flutter Mobile Dev", "Web Design"],
-    Environment: ["VSCode", "Android Studio"],
+    Hosting: {
+      Expert: ["Firebase"],
+      Intermediate: ["Heroku", "Vercel"],
+    },
+    Tools: {
+      Expert: ["VSCode", "Android Studio"],
+    },
   };
 }
+
 ```
 
 <h2 align="center">Skills </h2>
